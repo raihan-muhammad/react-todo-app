@@ -1,0 +1,79 @@
+.login {
+    display: flex;
+    height: 100vh;
+    &__kanan {
+        flex-grow: 5;
+    }
+    &__kiri {
+        flex-grow: 2;
+        background-color: $primary-color;
+    }
+
+    &__big-text {
+        font-size: 3rem;
+        margin: 20rem 0 0 10rem;
+        color: $white-color;
+    }
+
+    &__small-text {
+        margin: 1rem 0 0 10rem;
+        color: $white-color;
+        font-size: 1.6rem;
+        position: relative;
+        width: 55%;
+        line-height: 2.5rem;
+    }
+
+    &__todo-text {
+        color: $primary-color;
+        margin: 7rem 0 10rem 5rem;
+        font-size: 2.4rem;
+        font-weight: bold;
+    }
+
+    &__login-text {
+        margin: 0 0 0 5rem;
+        color: $primary-color;
+        font-size: 1.7rem;
+    }
+
+    &__input {
+        margin: 2rem 0 0 5rem;
+        width: 70%;
+        height: 3.5rem;
+        border-radius: .5rem;
+        border: 1px solid #bbb;
+        padding-left: 1.5rem;
+        outline: none;
+    }
+
+    &__text-biasa {
+        margin: 1rem 0 .5rem 5rem;
+        font-size: 1.2rem;
+    }
+
+    &__message {
+        margin: 1rem 0 0rem 5rem;
+        font-size: 1.2rem;
+        width: 65%;
+        color: #E91E63;
+    }
+
+    &__success-text, &__danger-text {
+        margin: 0 0 1.4rem 5rem;
+        padding: 1rem 2rem;
+        width: 65%;
+        font-size: 1.2rem;
+        color: $white-color;
+        border-radius: .4rem;
+    }
+
+    &__success-text {
+        background-color: #6ace6a;
+    }
+
+    &__danger-text {
+        background-color: #E91E63;
+    }
+}
+

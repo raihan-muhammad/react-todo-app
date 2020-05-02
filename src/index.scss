@@ -1,0 +1,17 @@
+html {
+  font-size: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+$white-color: #ffffff;
+$primary-color: #364FCC;
+
+@import "container/pages/login/login";
+@import "container/pages/register/register";
+@import "components/buttons/buttons";
+@import "container/pages/dashboard/dashboard";
