@@ -1,8 +1,8 @@
 {
-  "homepage": "http://sukasukangoding.github.io/react-todo-app",
   "name": "todo-list-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://sukasukangoding.github.io/react-todo-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
