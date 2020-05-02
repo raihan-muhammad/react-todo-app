@@ -10,8 +10,8 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-        <Route path="/react-todo-app/dashboard" component={Dashboard} />
-        <Route path="/react-todo-app/register" component={Register} />
+        <Route path="/dashboard" component={Dashboard} />
+        <Route path="/register" component={Register} />
         <Route path="/react-todo-app" exact component={Login} />
       </Router>
     </Provider>
